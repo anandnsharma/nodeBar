@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/macOS-14%2B-black?style=flat-square&logo=apple" alt="macOS 14+">
   <img src="https://img.shields.io/badge/Swift-5.9-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift 5.9">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-blue?style=flat-square" alt="License: GPL v3"></a>
-  <a href="https://github.com/AKSharma/nodeBar/stargazers"><img src="https://img.shields.io/github/stars/AKSharma/nodeBar?style=flat-square" alt="GitHub Stars"></a>
+  <a href="https://github.com/anand-thepasselgroup/nodeBar/stargazers"><img src="https://img.shields.io/github/stars/anand-thepasselgroup/nodeBar?style=flat-square" alt="GitHub Stars"></a>
 </p>
 
 <!-- TODO: Add screenshot here -->
@@ -34,14 +34,14 @@
 
 ### Download DMG
 
-Grab the latest `.dmg` from the [GitHub Releases](https://github.com/AKSharma/nodeBar/releases) page.
+Grab the latest `.dmg` from the [GitHub Releases](https://github.com/anand-thepasselgroup/nodeBar/releases) page.
 
 > **Note:** nodeBar is not signed with an Apple Developer certificate. On first launch, right-click the app → **Open** → click **Open** in the dialog to bypass Gatekeeper.
 
 ### Build from Source
 
 ```bash
-git clone https://github.com/AKSharma/nodeBar.git
+git clone https://github.com/anand-thepasselgroup/nodeBar.git
 cd nodeBar
 
 # Build a DMG (recommended)

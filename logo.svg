@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#68A063"/>
+      <stop offset="100%" stop-color="#3C873A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle (superellipse n=4) background -->
+  <path d="
+    M 256,40
+    C 420,40 472,92 472,256
+    C 472,420 420,472 256,472
+    C 92,472 40,420 40,256
+    C 40,92 92,40 256,40
+    Z
+  " fill="url(#grad)"/>
+
+  <!-- Subtle darker border -->
+  <path d="
+    M 256,40
+    C 420,40 472,92 472,256
+    C 472,420 420,472 256,472
+    C 92,472 40,420 40,256
+    C 40,92 92,40 256,40
+    Z
+  " fill="none" stroke="#2d6a2e" stroke-width="4" opacity="0.4"/>
+
+  <!-- "nB" monospace text -->
+  <text x="256" y="276" text-anchor="middle" dominant-baseline="central"
+        font-family="SF Mono, Menlo, Consolas, monospace"
+        font-size="200" font-weight="800" fill="#ffffff" opacity="0.95">nB</text>
+</svg>

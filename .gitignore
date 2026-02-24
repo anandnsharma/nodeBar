@@ -1,0 +1,17 @@
+# Swift Package Manager
+.build/
+Package.resolved
+
+# Build artifacts
+build/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+
+# macOS
+.DS_Store
+
+# Generated icon (rebuilt by scripts/build-dmg.sh)
+Sources/Resources/AppIcon.icns
